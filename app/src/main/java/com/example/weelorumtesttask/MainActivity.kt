@@ -18,6 +18,7 @@ import androidx.room.PrimaryKey
 import com.example.weelorumtesttask.component1.*
 import com.example.weelorumtesttask.ui.theme.WeelorumTestTaskTheme
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

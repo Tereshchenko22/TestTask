@@ -146,9 +146,8 @@ fun WeelorumTestTask(
 }
 
 @Composable
-fun Start(currentScreen: Any?, canNavigateBack: Any?, navigateUp: () -> Unit) {
+fun Start(currentScreen: Any?, canNavigateBack: Any?, navigateUp: () -> Unit) {}
 
-}
 private fun cancelAndNavigateToStart(
     viewModel: SelectOptionScreen,
     navController: NavHostController
